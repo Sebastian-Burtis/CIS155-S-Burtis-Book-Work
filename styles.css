@@ -12,10 +12,15 @@
     font-family: Impact;
 }
 
-.green
+h2, h3
 {
-    color: #2B632F;
+    color: green;
     font-size: 30px;
+}
+
+ul li
+{
+    color: #904DAC;
 }
 
 .footer
@@ -23,7 +28,3 @@
  font-size: 12px;   
 }
 
-.test
-{
-    
-}
