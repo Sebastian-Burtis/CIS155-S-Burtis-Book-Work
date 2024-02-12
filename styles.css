@@ -28,14 +28,21 @@ ul li
  font-size: 12px;   
 }
 
-.menacing
+.menacing1
 {
-    padding: 50px;
+    float: left;
+}
+
+.menacing2
+{
+    float: right;
+    
 }
 
 .logo
 {
-    margin-bottom: 120px;
+    display:block;
+
 }
 
 h1

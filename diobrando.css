@@ -1,0 +1,10 @@
+body
+{
+    column-count: 2;
+    column-gap: 100px;
+}
+
+img
+{
+    padding: 30px;
+}
