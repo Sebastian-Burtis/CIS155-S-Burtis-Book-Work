@@ -1,10 +1,14 @@
 body
 {
     column-count: 2;
-    column-gap: 100px;
+    column-gap: 150px;
+    background-image: url(menacing.jpg);
+    background-position:left;
+    background-size:10%;
+    margin: 5%;
 }
 
-img
+body p
 {
-    padding: 30px;
+    background-color: white;
 }

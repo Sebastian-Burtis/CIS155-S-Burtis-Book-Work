@@ -1,51 +1,47 @@
-.blue
+h1
 {
     color: #097AAC;
     font-size: 40px;
     font-family: arial;
-}
-
-.red
-{
-    color: #7B3232;
-    font-size: 20px;
-    font-family: Impact;
-}
-
-h2, h3
-{
-    color: green;
-    font-size: 30px;
+    padding: 10px;
+    border: solid 5px black;
+    display: inline-block;
 }
 
 ul li
 {
     color: #904DAC;
+    margin-left: 5%;
 }
 
 .footer
 {
- font-size: 12px;   
+ font-size: 12px;
 }
 
 .menacing1
 {
-    float: left;
+flex-basis:10%;
 }
 
 .menacing2
 {
-    float: right;
-    
+ flex-basis:10%;
 }
 
 .logo
 {
-    display:block;
-
+    flex-basis:25%;
 }
 
-h1
+#header-img
 {
-    padding-left: 200px;
+    display:flex;
+    justify-content: space-around;
 }
+
+p
+{
+    margin-left: 2.5%;
+}
+
