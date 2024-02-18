@@ -40,7 +40,8 @@ ul.nav-bar li a:hover, ul.nav-bar li a:focus {
     font-weight: bold;
 }
 
-.white-bar {
+main
+{
     margin: 3%;
     min-height: 70vh;
     background-color: #fff;
