@@ -1,5 +1,4 @@
-h1
-{
+h1 {
     color: #097AAC;
     font-size: 40px;
     font-family: arial;
@@ -8,43 +7,41 @@ h1
     display: inline-block;
 }
 
-ul li
-{
-    color: #904DAC;
-    margin-left: 5%;
+.footer {
+    font-size: 12px;
 }
 
-.footer
-{
- font-size: 12px;
+.menacing1 {
+    flex-basis: 10%;
 }
 
-.menacing1
-{
-flex-basis:10%;
+.menacing2 {
+    flex-basis: 10%;
 }
 
-.menacing2
-{
- flex-basis:10%;
+.logo {
+    flex-basis: 25%;
 }
 
-.logo
-{
-    flex-basis:25%;
-}
-
-#header-img
-{
-    display:flex;
+#header-img {
+    display: flex;
     justify-content: space-around;
+
+
 }
 
-p
-{
+/*helps with image breakpoint*/
+@media (max-width: 768px) {
+    img {
+        width: 20%;
+    }
+}
+
+p {
     margin-left: 2.5%;
 }
 
+/*navigation bar*/
 ul.nav-bar {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -55,11 +52,15 @@ ul.nav-bar {
     margin-left: -15px;
     margin-right: -15px;
 }
+
+/*navigation bar*/
 ul.nav-bar li {
     color: #fff;
     list-style: none;
     font-weight: 800;
 }
+
+/*navigation bar*/
 ul.nav-bar li a {
     color: #fff;
     letter-spacing: .25ch;
@@ -69,9 +70,11 @@ ul.nav-bar li a {
     font-size: 1.5rem;
     padding: 15px;
 }
-ul.nav-bar li a:hover, ul.nav-bar li a:focus {
+
+/*navigation bar*/
+ul.nav-bar li a:hover,
+ul.nav-bar li a:focus {
     background-color: #B0437D;
     color: #fff;
     font-weight: bold;
 }
-
