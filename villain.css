@@ -42,7 +42,7 @@ ul.nav-bar li a {
 ul.nav-bar li a:hover,
 ul.nav-bar li a:focus {
     background-color: #B0437D;
-    color: #fff;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -50,7 +50,7 @@ ul.nav-bar li a:focus {
 main {
     margin: 3%;
     min-height: 70vh;
-    background-color: #fff;
+    background-color: #ffffff;
     box-shadow: 4px 5px 20px 4px black, 10px 10px 20px 4px #5F2C62;
 }
 
