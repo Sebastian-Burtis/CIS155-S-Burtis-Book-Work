@@ -73,3 +73,38 @@ main {
         font-size: 14px;
     }
 }
+
+@media (max-width: 768px) {
+    ul.nav-bar li {
+        font-size: 12px;
+    }
+}
+
+.mask{
+    width: 10%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    height: 100%; 
+}
+
+.text-content {
+    padding: 20px;
+    height: 100%; /* Ensure the text content takes up the full height of the grid container */
+    overflow: auto; /* Add scrollbars if the content overflows */
+    box-sizing: border-box; /* Ensure padding is included in the height calculation */
+}
+
+.image-content {
+    display: flex;
+    justify-content: center; /* Center image horizontally */
+    align-items: center; /* Center image vertically */
+    height: 100%; /* Ensure the image content takes up the full height of the grid container */
+}
+
+img {
+    max-width: 100%; /* Ensure image doesn't overflow its container */
+    max-height: 100%; /* Ensure image doesn't overflow its container */
+}

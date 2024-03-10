@@ -1,7 +1,7 @@
 h1 {
     color: #097AAC;
     font-size: 40px;
-    font-family: arial;
+    font-family: ojuju;
     padding: 10px;
     border: solid 5px black;
     display: inline-block;
@@ -78,3 +78,4 @@ ul.nav-bar li a:focus {
     color: #fff;
     font-weight: bold;
 }
+
