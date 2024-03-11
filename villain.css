@@ -3,15 +3,28 @@ body {
     background-position: left;
     background-size: 10%;
 }
-
+h1{
+    color: #552760;
+    font-size: 6rem;
+    margin: 5px;
+    text-align: center;
+}
+h2{
+    color: #B0437D;
+    font-weight: bold;
+}
+h3{
+    color: #B0437D;
+    display: inline;
+}
 body p {
     background-color: white;
 }
 
 /*navigation bar*/
 ul.nav-bar {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: inline-block;
+    width: 100%;
     background-color: #552760;
     padding: 15px;
     color: #fff;
@@ -25,6 +38,8 @@ ul.nav-bar li {
     color: #fff;
     list-style: none;
     font-weight: 800;
+    padding: 8px;
+    display: inline-block;
 }
 
 /*navigation bar*/
@@ -35,7 +50,7 @@ ul.nav-bar li a {
     text-decoration: none;
     font-weight: normal;
     font-size: 1.5rem;
-    padding: 15px;
+    padding: 0px 25px 0px 0px;
 }
 
 /*navigation bar*/
@@ -55,6 +70,7 @@ ul.nav-bar li a:focus {
 /*text background*/
 main {
     margin: 3%;
+    padding: 25px;
     min-height: 70vh;
     background-color: #ffffff;
     box-shadow: 4px 5px 20px 4px black, 10px 10px 20px 4px #5F2C62;
@@ -65,7 +81,7 @@ main {
 }
 
 .font{
-    font-size: 20px;
+    font-size: 22px;
 }
 
 @media (max-width: 480px) {
@@ -87,7 +103,9 @@ main {
 }
 
 .mask{
-    width: 10%;
+    width: 15%;
+
+
 }
 
 .grid-container {
@@ -97,7 +115,7 @@ main {
 }
 
 .text-content {
-    padding: 20px;
+    padding: 0px 35px;
     height: 100%; /* Ensure the text content takes up the full height of the grid container */
     overflow: auto; /* Add scrollbars if the content overflows */
     box-sizing: border-box; /* Ensure padding is included in the height calculation */
