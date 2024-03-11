@@ -9,6 +9,12 @@ h1{
     margin: 5px;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
 h2{
     color: #B0437D;
     font-weight: bold;
@@ -104,10 +110,10 @@ main {
 
 .mask{
     width: 15%;
-
-
 }
-
+.stone{
+    width: 60%;
+}
 .grid-container {
     display: grid;
     grid-template-columns: 2fr 1fr; 
