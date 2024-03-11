@@ -79,3 +79,8 @@ ul.nav-bar li a:focus {
     font-weight: bold;
 }
 
+@media screen and (max-width: 768px) {
+    ul.nav-bar li a {
+        font-size: 1rem; 
+    }
+}
