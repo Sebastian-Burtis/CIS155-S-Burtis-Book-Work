@@ -1,8 +1,4 @@
-body {
-    background-image: url(images/menacing.jpg);
-    background-position: left;
-    background-size: 10%;
-}
+/*Classes that affect text*/
 h1{
     color: #552760;
     font-size: 6rem;
@@ -10,21 +6,81 @@ h1{
     text-align: center;
 }
 
-@media (max-width: 768px) {
-    h1 {
-        font-size: 3rem;
-    }
-}
 h2{
     color: #B0437D;
     font-weight: bold;
 }
+
 h3{
     color: #B0437D;
     display: inline;
 }
+
+.font{
+    font-size: 22px;
+}
+
+strong{
+    color:#B0437D;
+}
+
+/*Background*/
+body{
+    background-image: url(images/menacing.jpg);
+    background-position: left;
+    background-size: 10%;
+}
+
+/*text background*/
+main {
+    margin: 3%;
+    padding: 25px;
+    min-height: 70vh;
+    background-color: #ffffff;
+    box-shadow: 4px 5px 20px 4px black, 10px 10px 20px 4px #5F2C62;
+}
+
 body p {
     background-color: white;
+}
+
+/*Specific classes for certian emages*/
+.mask{
+    width: 15%;
+}
+
+.stone{
+    width: 60%;
+}
+
+.epitaph{
+    width: 60%;
+}
+
+/*Grid format*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    height: 100%; 
+}
+
+.text-content {
+    padding: 0px 35px;
+    height: 100%; 
+    overflow: auto; 
+    box-sizing: border-box; 
+}
+
+.image-content {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+}
+
+img {
+    max-width: 100%; 
+    max-height: 100%; 
 }
 
 /*navigation bar*/
@@ -39,7 +95,6 @@ ul.nav-bar {
     margin-right: -15px;
 }
 
-/*navigation bar*/
 ul.nav-bar li {
     color: #fff;
     list-style: none;
@@ -48,7 +103,6 @@ ul.nav-bar li {
     display: inline-block;
 }
 
-/*navigation bar*/
 ul.nav-bar li a {
     color: #fff;
     letter-spacing: .25ch;
@@ -59,7 +113,6 @@ ul.nav-bar li a {
     padding: 0px 25px 0px 0px;
 }
 
-/*navigation bar*/
 ul.nav-bar li a:hover,
 ul.nav-bar li a:focus {
     background-color: #B0437D;
@@ -67,27 +120,11 @@ ul.nav-bar li a:focus {
     font-weight: bold;
 }
 
+/*Media tags*/
 @media screen and (max-width: 768px) {
     ul.nav-bar li a {
         font-size: 1rem; 
     }
-}
-
-/*text background*/
-main {
-    margin: 3%;
-    padding: 25px;
-    min-height: 70vh;
-    background-color: #ffffff;
-    box-shadow: 4px 5px 20px 4px black, 10px 10px 20px 4px #5F2C62;
-}
-
-#placeholder{
-    color: purple;
-}
-
-.font{
-    font-size: 22px;
 }
 
 @media (max-width: 480px) {
@@ -108,40 +145,8 @@ main {
     }
 }
 
-.mask{
-    width: 15%;
-}
-.stone{
-    width: 60%;
-}
-.epitaph{
-    width: 60%;
-}
-.grid-container {
-    display: grid;
-    grid-template-columns: 2fr 1fr; 
-    height: 100%; 
-}
-
-.text-content {
-    padding: 0px 35px;
-    height: 100%; /* Ensure the text content takes up the full height of the grid container */
-    overflow: auto; /* Add scrollbars if the content overflows */
-    box-sizing: border-box; /* Ensure padding is included in the height calculation */
-}
-
-.image-content {
-    display: flex;
-    justify-content: center; /* Center image horizontally */
-    align-items: center; /* Center image vertically */
-    height: 100%; /* Ensure the image content takes up the full height of the grid container */
-}
-
-img {
-    max-width: 100%; /* Ensure image doesn't overflow its container */
-    max-height: 100%; /* Ensure image doesn't overflow its container */
-}
-
-strong{
-    color:#B0437D;
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
 }
