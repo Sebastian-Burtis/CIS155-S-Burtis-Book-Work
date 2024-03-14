@@ -42,9 +42,10 @@ p {
 }
 
 /*navigation bar*/
+/*navigation bar*/
 ul.nav-bar {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: inline-block;
+    width: 100%;
     background-color: #552760;
     padding: 15px;
     color: #fff;
@@ -58,6 +59,8 @@ ul.nav-bar li {
     color: #fff;
     list-style: none;
     font-weight: 800;
+    padding: 8px;
+    display: inline-block;
 }
 
 /*navigation bar*/
@@ -68,14 +71,14 @@ ul.nav-bar li a {
     text-decoration: none;
     font-weight: normal;
     font-size: 1.5rem;
-    padding: 15px;
+    padding: 0px 25px 0px 0px;
 }
 
 /*navigation bar*/
 ul.nav-bar li a:hover,
 ul.nav-bar li a:focus {
     background-color: #B0437D;
-    color: #fff;
+    color: #ffffff;
     font-weight: bold;
 }
 

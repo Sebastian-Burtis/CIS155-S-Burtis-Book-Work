@@ -1,5 +1,5 @@
 body {
-    background-image: url(menacing.jpg);
+    background-image: url(images/menacing.jpg);
     background-position: left;
     background-size: 10%;
 }
@@ -114,6 +114,9 @@ main {
 .stone{
     width: 60%;
 }
+.epitaph{
+    width: 60%;
+}
 .grid-container {
     display: grid;
     grid-template-columns: 2fr 1fr; 
@@ -137,4 +140,8 @@ main {
 img {
     max-width: 100%; /* Ensure image doesn't overflow its container */
     max-height: 100%; /* Ensure image doesn't overflow its container */
+}
+
+strong{
+    color:#B0437D;
 }
